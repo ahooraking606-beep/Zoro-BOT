@@ -335,8 +335,8 @@ def decompose_gold_amount(amount: int) -> list:
 
 
 DEFAULT_CONFIG = {
-    "host_usernames": ["mudkun"],
-    "admin_usernames": ["mudkun"],
+    "host_usernames": ["@ahoora_king"],
+    "admin_usernames": ["@ahoora_king"],
     "vip_usernames": [],
     "banned_users": {},  # username -> until_iso (رشته) یا None (دائمی)
     "custom_ranks": {},
@@ -7410,8 +7410,8 @@ async def main():
     from http.server import BaseHTTPRequestHandler, HTTPServer
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
-    room_id = os.getenv("ROOM_ID", "6a6b446ba0eae7fdccc047ec")
-    api_token = os.getenv("API_TOKEN", "5aa6d4e813f304b0dadf3c96fe073802c8a9e4281194c387d3ad9075ac431bfe")
+    room_id = os.getenv("ROOM_ID", "6a9883fd9a8f4d681a7ad2b0")
+    api_token = os.getenv("API_TOKEN", "16f570d1ecbbc032a47b765ffd515bf05c008253bdc2571a9cbb34bf19e4377f")
     
     if not room_id or not api_token:
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
