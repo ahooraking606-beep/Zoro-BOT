@@ -335,8 +335,8 @@ def decompose_gold_amount(amount: int) -> list:
 
 
 DEFAULT_CONFIG = {
-    "host_usernames": ["@ahoora_king"],
-    "admin_usernames": ["@ahoora_king"],
+    "host_usernames": ["ahoora_king"],
+    "admin_usernames": ["ahoora_king"],
     "vip_usernames": [],
     "banned_users": {},  # username -> until_iso (رشته) یا None (دائمی)
     "custom_ranks": {},
